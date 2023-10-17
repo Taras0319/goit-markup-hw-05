@@ -668,7 +668,7 @@ gap: 40px;
           padding: 8px 24px;
           justify-content: center;
           align-items: center;
-          gap: 16px;
+          
           border-radius: 4px;
           background: var(--IRIS, #4d5ae5);
           color: #fff;
@@ -697,6 +697,7 @@ gap: 40px;
           gap: 24px;
           background-color: transparent;
           fill: #fff;
+          margin-left: 16px;
           
         }
     
