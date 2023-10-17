@@ -265,11 +265,7 @@ gap: 40px;
   
 }
 
-.feature-icon {
- 
-  
-  
-}
+
 
   .feature-list {
     display: flex;
@@ -628,11 +624,7 @@ gap: 40px;
         }
     
         .footer-bottom:last-child {
-          display: block;
-          justify-content: space-between;
-          align-items: center;
-          margin-left: 80px;
-          margin-right: 3px;
+            margin-left: 80px;
         }
     
         .footer-form {
@@ -688,7 +680,15 @@ gap: 40px;
           cursor: pointer;
           border: none;
         }
-    
+        .footer-form-btn:focus{
+          background-color: #404bbf;
+        }
+
+        .footer-form-btn:hover{
+          background-color: #404bbf;
+        }
+
+
         .footer-form-icon {
           width: 24px;
           height: 24px;
@@ -696,7 +696,7 @@ gap: 40px;
           gap: 24px;
           background-color: transparent;
           fill: #fff;
-          margin-left: 16px;
+          
         }
     
         /*=====footer end=====*/
@@ -761,15 +761,17 @@ gap: 40px;
         }
     
         .modal-btn:hover {
-          border: none;
+          
           background-color: #404bbf;
-          fill: #ffff;
+         /* fill: #fff;
+        border: none;*/
         }
     
         .modal-btn:focus {
           background-color: #404bbf;
-          border: none;
-          fill: #ffff;
+          /*border: none;
+          fill: #fff;*/
+          
         }
     
         .modal-btn-icon {
@@ -792,7 +794,6 @@ gap: 40px;
           white-space: nowrap;
         }
     
-        .modal-form {}
     
         .modal-field {
           margin-bottom: 8px;
@@ -853,7 +854,7 @@ gap: 40px;
           border: 1px solid rgba(46, 47, 66, 0.4);
           background-color: transparent;
           color: rgba(46, 47, 66, 0.4);
-          
+          display: block;
           font-family: Roboto;
           font-size: 12px;
           line-height: 1.17em;
@@ -921,6 +922,8 @@ gap: 40px;
           background-color: #404bbf;
           fill: #f4f4fd;
         }
+
+        
     
         .modal-send-btn {
           display: block;
